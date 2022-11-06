@@ -1,0 +1,13 @@
+:root {
+  --blue:radial-gradient(rgba(24,62,119,0.497),rgba(32,103,209,0.7));
+} 
+body {
+  background-image: var(--blue);
+  background-color: black;
+  /* margin: 0; */
+}
+.err {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}

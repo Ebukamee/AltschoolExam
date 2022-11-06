@@ -1,0 +1,29 @@
+.contain{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin-left:5% ;
+}
+.image{
+    width: 50%;
+    /* margin: auto 4%; */
+    position: relative;
+    right: -5%;
+}
+.words{
+    width: 45%;
+    margin-right: 5%;
+    margin: auto;
+}
+.image img {
+    width: 100%;
+}
+body{
+    margin: 0;
+}
+h1,p {
+    color: white;
+}
+h1.not{
+    font-size: 30px;
+}
