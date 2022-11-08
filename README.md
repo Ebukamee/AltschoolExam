@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+These Project was created using React for Altschool Africa Exam 
+The link to the website is
+http://altschool-exam-henna.vercel.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
