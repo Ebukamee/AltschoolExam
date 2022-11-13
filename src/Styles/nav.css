@@ -1,4 +1,6 @@
-
+:root {
+    --logo:rgba(47,136,255,1);
+}
 
 .links {
     margin-left: 30%;
@@ -19,8 +21,11 @@
 }
 
 .logo {
-    width: 100px;
-    height: 20px;
+    color: var(--logo);
+    font-family:  'Jokerman', sans-serif; ;
+    font-size: 45px;
+    margin:20px auto;
+    margin-top: 0.5px;
 }
 
 @media(max-width:700px) {
@@ -30,6 +35,10 @@
     }
     .nav{
         flex-direction: column;
+    }
+    .link{
+        display: block;
+        text-align: center;
     }
     .logo{
         margin: auto;
